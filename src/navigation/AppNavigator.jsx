@@ -49,7 +49,7 @@ const AppNavigator = () => {
 
   const ONESIGNAL_KEY = `e6bbb99e-2976-4208-8e74-50c754bb8ce3`;
 
-  const TARGET_DATA = new Date(2026, 3, 10, 8, 8, 0);
+  const TARGET_DATA = new Date(2026, 3, 17, 8, 8, 0);
 
   useEffect(() => {
     const fetchData = async () => {
