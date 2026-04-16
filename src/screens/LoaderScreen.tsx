@@ -90,11 +90,11 @@ const LoaderScreen: React.FC<Props> = ({navigation}) => {
       }),
     ]).start();
 
-    const timer = setTimeout(() => {
-      navigation.replace('Onboarding');
-    }, 5000);
+    //const timer = setTimeout(() => {
+    //  navigation.replace('Onboarding');
+    //}, 5000);
 
-    return () => clearTimeout(timer);
+    //return () => clearTimeout(timer);
   }, [navigation, fadeAnim, scaleAnim]);
 
   return (
